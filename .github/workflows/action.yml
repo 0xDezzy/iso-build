@@ -1,5 +1,4 @@
 name: 'Manjaro ISO Build'
-description: 'Builds Manjaro ISO'
 
 on:
   workflow_dispatch:
