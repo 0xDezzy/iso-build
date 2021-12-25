@@ -81,7 +81,7 @@ outputs:
     description: "path of the generated iso"
     value: ${{ steps.image-build.outputs.file-path }}
 
-runs:
+jobs:
   using: "composite"
   steps:
     - id: install-build-dependencies
