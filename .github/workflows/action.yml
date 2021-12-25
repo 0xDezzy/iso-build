@@ -43,7 +43,7 @@ jobs:
         ###### EDIT HERE ######
         EDITION: [i3]
         BRANCH: [stable]
-        SCOPE: [full]
+        SCOPE: [minimal]
         #######################
     steps:
       - 
