@@ -1,6 +1,12 @@
 name: 'Manjaro Iso Action'
 description: 'Installs prerequisites for building Manjaro on ubuntu'
 
+on:
+  workflow_dispatch:
+  #schedule:
+  #  - cron:  '30 2 * * *'
+
+
 inputs:
   iso-profiles-repo:
     description: 'iso profiles to clone'
