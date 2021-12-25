@@ -93,7 +93,7 @@ jobs:
           sudo meson compile -C build
           sudo meson install -C build
           cd ..
-          sudo install -m644 pacman.conf.x86_64 /etc/pacman.conf
+          sudo install -m644 pacman.conf /etc/pacman.conf
           sudo install -m644 makepkg.conf /etc/
           sudo sed -i /etc/makepkg.conf \
             -e "s|@CARCH[@]|x86_64|g" \
