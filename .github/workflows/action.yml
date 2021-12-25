@@ -42,9 +42,9 @@ jobs:
     strategy:
       matrix:
         ###### EDIT HERE ######
-        EDITION: [xfce]
+        EDITION: [i3]
         BRANCH: [stable]
-        SCOPE: [minimal]
+        SCOPE: [full]
         #######################
     steps:
       - 
